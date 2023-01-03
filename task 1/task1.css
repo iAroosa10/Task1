@@ -1,0 +1,9 @@
+.container {
+    display:flex;
+    flex-wrap:wrap-reverse;
+    gap:10px;
+  }
+  .container  div{
+    flex:max(400px, 100%/2 - 20px);
+    background: rgb(187, 163, 163);
+  }
